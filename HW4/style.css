@@ -1,0 +1,20 @@
+img{
+	width: 500;
+	height:280;
+}
+
+.record{
+	background-color: rgb(255, 232, 204);
+	color: rgb(37, 88, 136);
+}
+
+button{
+	height: 30px;
+	width: 250px;
+	position:relative;
+	text-align:center;
+	left: 125px;
+}
+.add{
+	color: rgb(43, 209, 195);
+}

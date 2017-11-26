@@ -1,0 +1,27 @@
+img{
+	width: 500;
+	height:280;
+}
+
+.record{
+	background-color: rgba(255, 232, 204, 0.4);
+	color: rgb(37, 88, 136);
+
+	margin-bottom:10px;
+ 	font-family :'Courier New', monospace;
+ 	padding :10px;
+ 	border :10px solid #006;
+	border-radius:20px;
+
+}
+
+button{
+	height: 30px;
+	width: 250px;
+	position:relative;
+	text-align:center;
+	left: 125px;
+}
+.add{
+	color: rgb(43, 209, 195);
+}

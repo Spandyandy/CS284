@@ -1,0 +1,13 @@
+@font-face{
+	font-family:emmanuel;
+	src: url(funny.woff);
+}
+.fontTest{
+	font-family:emmanuel;
+}
+
+body{
+	background: #e6ffe6;
+	font-size: 500%;
+	overflow: auto;
+}

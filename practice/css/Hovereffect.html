@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Transitioning on hover</title>
+ <style>
+ #square {
+ position :absolute;
+ top :50px;
+ left :50px;
+ width :100px;
+ height :100px;
+ padding :2px;
+ text-align :center;
+ border-width :1px;
+ border-style :solid;
+ background :yellow;
+ transition :all 10s ease-in-out;
+ -moz-transition :all 5s ease-in-out;
+ -webkit-transition:all 10s ease-in-out;
+ -o-transition :all 10s ease-in-out;
+ -ms-transition :all 10s ease-in-out;
+ transform :perspective(150px) rotateX(80deg) rotateY(60deg) rotateZ(80deg) translateX(100px) translateY(-100px) translateZ(100px);
+ }
+ #toggle {
+ background :purple;
+ -moz-transform :rotate(90deg);
+ -webkit-transform :rotate(90deg);
+ -o-transform :rotate(90deg);
+ -ms-transform :rotate(90deg);
+ transform :rotate(360deg);
+ }
+ </style>
+ </head>
+ <body>
+ <div id='square'>
+ Square shape<br>
+ created using<br>
+ a simple div<br>
+ element with<br>
+ a 1px border
+ </div>
+ </body>
+</html>

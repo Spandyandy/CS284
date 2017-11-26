@@ -1,0 +1,34 @@
+.flutter *, .flutter{color:#3232C8;}
+
+div.flutter { 
+  width:400px; 
+  background:white; /* should match background color of gif. */ 
+  text-align:center; 
+  padding:5px; 
+  overflow:auto; 
+  font-size:70%; 
+  font-family:arial; 
+  border:solid #3232C8 1px;
+  float:right;
+  }
+
+div.flutter header { 
+  display:block;
+  background:url(flower.gif) no-repeat 0;
+  font-size:2.5em; 
+  margin:0 0 10px 0; 
+  padding:20px 0 20px 80px; 
+  }
+
+.flutter ul { 
+  margin:0; 
+  padding:0; 
+  }
+
+
+.flutter ul li { 
+  list-style-type:none; 
+  float:left; 
+  margin:0 10px; 
+  height:35px; 
+  }
